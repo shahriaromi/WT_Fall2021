@@ -6,9 +6,9 @@ if (isset($_POST['submit'])){
   $email=$_POST["email"];
   $password=$_POST["password"];
   $age=$_POST["age"];
-  $check1=$_POST['language1'];
-  $check2=$_POST['language2'];
-  $check3=$_POST['language3'];
+  $check1='';
+  $check2='';
+  $check3='';
   $designation=$_POST['designation'];
 
 }
@@ -104,18 +104,21 @@ if (isset($_POST['submit'])){
         else{
           echo "<span>Preferred language: </span>";
           if(isset($_POST['language1'])){
+            $check1=$_POST['language1'];
             echo "<span>$check1</span><br>";
           }
           else{
             echo "";
           }
           if(isset($_POST['language2'])){
+            $check2=$_POST['language2'];
             echo "<span>$check2</span><br>";
           }
           else{
             echo "";
           }
           if(isset($_POST['language3'])){
+            $check3=$_POST['language3'];
             echo "<span>$check3</span>";
           }
           else{
