@@ -1,0 +1,42 @@
+header {
+  text-align: center;
+  background: rgb(204, 254, 253);
+  padding: 20px 0px;
+}
+header h2 {
+  color: rgb(37, 51, 181);
+}
+nav {
+  background: rgb(64, 41, 85);
+  padding: 16px 12px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 18px;
+}
+.label {
+  width: 300px;
+  display: inline-block;
+}
+form {
+  width: 800px;
+  background-color: rgb(248, 220, 113);
+  padding: 5px;
+}
+.btn {
+  background-color: rgb(0, 139, 190);
+
+  padding: 4px 24px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+main {
+  background: rgb(186, 210, 212);
+  padding: 10px;
+}
+main h1 {
+  background: rgb(219, 240, 243);
+  border-left: 10px solid rgb(108, 193, 192);
+}
